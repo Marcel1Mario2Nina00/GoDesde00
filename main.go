@@ -3,7 +3,7 @@ package main
 //"runtime"
 
 import (
-	"github.com/Marcel1Mario2Nina00/GoDesde00/ejercicios"
+	"github.com/Marcel1Mario2Nina00/GoDesde00/files"
 )
 
 func main() {
@@ -30,5 +30,8 @@ func main() {
 	*/
 	//teclado.IngresoNumeros()
 	//iteraciones.Iterar()
-	ejercicios.PedirNumero()
+	//fmt.Println(ejercicios.PedirNumero())
+	//files.GrabarTabla()
+	//files.SumaTabla()
+	files.LeoArchivo()
 }
